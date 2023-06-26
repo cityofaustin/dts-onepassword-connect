@@ -1,10 +1,10 @@
 import os
 import json
-import requests
 from datetime import datetime
 
-from dotenv import load_dotenv
+import requests
 import dateutil.parser
+from dotenv import load_dotenv
 
 load_dotenv()
 
