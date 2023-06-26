@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 OP_API_TOKEN = os.getenv("OP_API_TOKEN")
-OP_CONNECT = os.getenv("OP_CONNECT")
+OP_CONNECT = os.getenv("OP_CONNECT") + "/v1/activity"
 
 ip_set = set()
 
